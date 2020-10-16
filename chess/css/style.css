@@ -1,0 +1,84 @@
+* {
+  background-color: #10222E;
+}
+
+.chessboard {
+  width: 480px;
+  height: 480px;
+  border: 25px solid #333;
+  margin:auto;
+}
+
+#button_id {
+  margin-left: 100px;
+}
+
+.value {
+  border: none;
+}
+
+.rows {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.class1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}
+
+#button_id button {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#button_id2 button {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+
+.black {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #494535;
+}
+
+.white {
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #EDC745;
+}
